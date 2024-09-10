@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace PruebaDSV
 {
-    public partial class Form1 : Form
+    public partial class Form3 : Form
     {
-        public Form1()
+        public Form3()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form3 form3 = new Form3();  
-            this.Hide();
-            form3.Show();
         }
     }
 }
